@@ -15,21 +15,25 @@ int main() {
     cout << "(1) Exibir Saldo\n";
     cout << "(2) Depositar\n";
     cout << "(3) Sacar\n";
+    cout << "(4) Encerrar Acesso\n";
     cin >> num_op;
 
-    if (num_op == 1) {
-        c1.exibir();
+    while (num_op != 4) {
+        if (num_op == 1) {
+            c1.exibir();
+        }
+        else if (num_op == 2) {
+            cout << "Digite o valor que deseja depositar: ";
+            cin>>val_op;
+            c1.depositar(val_op);
+        }
+        else if (num_op == 3) {
+            cout << "Digite o valor que deseja Sacar: ";
+            cin>>val_op;
+            c1.sacar(val_op);
+        }
+        cin >> num_op;
+        if (num_op == 4) {
+            return 0; }
     }
-    else if (num_op == 2) {
-        cout << "Digite o valor que deseja depositar: ";
-        cin>>val_op;
-        c1.depositar(val_op);
-    }
-    else if (num_op == 3) {
-        cout << "Digite o valor que deseja Sacar: ";
-        cin>>val_op;
-        c1.sacar(val_op);
-    }
-
-    return 0;
 }
