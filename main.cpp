@@ -1,6 +1,7 @@
 #include <iostream>
 #include "ContaCorrente.h"
 #include "ContaPoupanca.h"
+#include "GerenciadorBD.h"
 using namespace std;
 
 int main() {
