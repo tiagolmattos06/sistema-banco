@@ -1,38 +1,37 @@
 #include "ContaCorrente.h"
 #include <iostream>
-using namespace std;
 
-ContaCorrente::ContaCorrente(int numero, string titular, double saldoInicial, double taxa)
-    : Conta(numero, titular, saldoInicial) // chama o construtor da base "Conta"
-{
-    this->taxaManutencao = taxa;
+// Construtor 
+ContaCorrente::ContaCorrente(int numero, string titular, double saldoInicial, string username_dono, double taxaManutencao)
+    : Conta(numero, titular, saldoInicial, username_dono), // Chama o construtor da classe base
+      taxaManutencao(taxaManutencao) {
+    // Construtor da classe filha
 }
 
-//saque implementado
+// Métodos 
 bool ContaCorrente::sacar(double valor) {
+    double valorTotal = valor + taxaManutencao;
     if (valor <= 0) {
-        cout << "Valor inválido para saque.\n";
+        std::cout << "Valor de saque inválido." << std::endl;
         return false;
     }
-
-    if (valor > saldo) {
-        cout << "Saldo insuficiente.\n";
+    if (saldo >= valorTotal) {
+        saldo -= valorTotal;
+        std::cout << "Saque de R$" << valor << " (taxa de R$" << taxaManutencao << ") realizado. Saldo restante: R$" << saldo << std::endl;
+        return true;
+    } else {
+        std::cout << "Saldo insuficiente (saque + taxa). Saldo atual: R$" << saldo << std::endl;
         return false;
     }
-
-    saldo -= valor;
-    cout << "Saque de R$" << valor << " realizado.\n";
-    return true;
 }
 
-// metodo específico da conta corrente
 void ContaCorrente::cobrarTaxaMensal() {
     saldo -= taxaManutencao;
-    cout << "Taxa mensal de R$" << taxaManutencao << " cobrada.\n";
+    std::cout << "Taxa mensal de R$" << taxaManutencao << " cobrada." << std::endl;
 }
 
-// exibe informações
 void ContaCorrente::exibir() const {
-    Conta::exibir();
-    cout << "Taxa de manutenção: R$" << taxaManutencao << endl;
+    std::cout << "--- CONTA CORRENTE ---" << std::endl;
+    Conta::exibir(); // Chama o exibir da classe base
+    std::cout << " | Taxa de Operação: R$" << taxaManutencao << std::endl;
 }
