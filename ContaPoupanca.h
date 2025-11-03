@@ -8,6 +8,7 @@ class ContaPoupanca : public Conta {
 private:
     double taxaRendimento; // em percentual
 
+friend class GerenciadorBD;
 public:
     ContaPoupanca(int numero, string titular, double saldoInicial, double taxaRendimento);
 
