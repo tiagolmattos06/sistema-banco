@@ -3,7 +3,10 @@
 
 #include <string>
 #include "Conta.h"
+#include "ContaCorrente.h"
+#include "ContaPoupanca.h"
 #include "sqlite3.h"
+
 
 class GerenciadorBD {
 private:
@@ -12,6 +15,8 @@ private:
 
     void criarTabelaContas();
     void criarTabelaUsuarios();
+
+    int getProximoNumeroConta();
 
 public:
     GerenciadorBD(const std::string& nomeArquivo);
@@ -38,3 +43,5 @@ public:
 };
 
 #endif //SISTEMA_BANCO_GERENCIADORBD_H
+
+

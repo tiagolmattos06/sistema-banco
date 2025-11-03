@@ -8,9 +8,10 @@ class ContaCorrente : public Conta {
 private:
     double taxaManutencao;
 
+
     friend class GerenciadorBD;
 public:
-    ContaCorrente(int numero, string titular, double saldoInicial, double taxaManutencao);
+    ContaCorrente(int numero, string titular, double saldoInicial, string username_dono, double taxaManutencao);
 
     
     bool sacar(double valor) override; //sacar da classe base
@@ -21,5 +22,6 @@ public:
     //exibir informações
     void exibir() const override;
 };
+
 
 #endif

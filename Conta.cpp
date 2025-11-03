@@ -1,47 +1,30 @@
 #include "Conta.h"
 #include <iostream>
-using namespace std;
 
 
-Conta::Conta(int numero, string titular, double saldoInicial) {
-    this->numero = numero;
-    this->titular = titular;
-    this->saldo = saldoInicial;
+Conta::Conta(int numero, string titular, double saldoInicial, string username_dono)
+    : numero(numero), titular(titular), saldo(saldoInicial), username_dono(username_dono) {
+    // Construtor da classe base
 }
 
+// Destrutor
 Conta::~Conta() {
-
 }
 
+int Conta::getNumero() const { return numero; }
+string Conta::getTitular() const { return titular; }
+double Conta::getSaldo() const { return saldo; }
 
-int Conta::getNumero() const {
-    return numero;
-}
-
-string Conta::getTitular() const {
-    return titular;
-}
-
-double Conta::getSaldo() const {
-    return saldo;
-}
-
-// Depósito de ambas as contas
+// Métodos 
 void Conta::depositar(double valor) {
     if (valor > 0) {
         saldo += valor;
-        cout << "Depósito de R$" << valor << " realizado com sucesso.\n";
+        std::cout << "Depósito de R$" << valor << " realizado. Novo saldo: R$" << saldo << std::endl;
     } else {
-        cout << "Valor inválido para depósito.\n";
+        std::cout << "Valor de depósito inválido." << std::endl;
     }
 }
 
-// Tela de informações da conta do usuário
 void Conta::exibir() const {
-    cout << "-----------------------------\n";
-    cout << "Conta nº: " << numero << endl;
-    cout << "Titular: " << titular << endl;
-    cout << "Saldo: R$" << saldo << endl;
-    cout << "-----------------------------\n";
+    std::cout << "Titular: " << titular << " | Número: " << numero << " | Saldo: R$" << saldo;
 }
-
