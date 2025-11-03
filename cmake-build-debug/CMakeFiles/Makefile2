@@ -53,10 +53,10 @@ RM = "C:\Program Files\JetBrains\CLion 2025.2.4\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\rosta\CLionProjects\sistema-banco
+CMAKE_SOURCE_DIR = C:\Users\vinni\CLionProjects\sistema-banco
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\rosta\CLionProjects\sistema-banco\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\vinni\CLionProjects\sistema-banco\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -84,14 +84,14 @@ clean: CMakeFiles/sistema_banco.dir/clean
 CMakeFiles/sistema_banco.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\rosta\CLionProjects\sistema-banco\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target sistema_banco"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\vinni\CLionProjects\sistema-banco\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target sistema_banco"
 .PHONY : CMakeFiles/sistema_banco.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sistema_banco.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\rosta\CLionProjects\sistema-banco\cmake-build-debug\CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vinni\CLionProjects\sistema-banco\cmake-build-debug\CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/sistema_banco.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\rosta\CLionProjects\sistema-banco\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vinni\CLionProjects\sistema-banco\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/sistema_banco.dir/rule
 
 # Convenience name for target.
@@ -101,7 +101,7 @@ sistema_banco: CMakeFiles/sistema_banco.dir/rule
 # codegen rule for target.
 CMakeFiles/sistema_banco.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\rosta\CLionProjects\sistema-banco\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Finished codegen for target sistema_banco"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\vinni\CLionProjects\sistema-banco\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Finished codegen for target sistema_banco"
 .PHONY : CMakeFiles/sistema_banco.dir/codegen
 
 # clean rule for target.

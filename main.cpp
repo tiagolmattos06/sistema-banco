@@ -6,6 +6,15 @@
 #include "GerenciadorBD.h"
 using namespace std;
 
+void pressEnter() {
+    cout << "\n\nPressione ENTER para continuar..." << std::flush;
+
+    // Limpa o buffer de entrada de qualquer '\n' que sobrou do 'cin' anterior
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+    // Espera o usuário pressionar ENTER (lê o novo '\n' e o descarta)
+    cin.get();
+}
 
 void rodarAppPrincipal(GerenciadorBD& gerenciador, const std::string& usuarioLogado) {
     
@@ -33,7 +42,8 @@ void rodarAppPrincipal(GerenciadorBD& gerenciador, const std::string& usuarioLog
         if (conta_ativa == 1) {
             cout << ">> CONTA ATIVA: CORRENTE <<" << endl;
             c1.exibir();
-        } else {
+        }
+        else {
             cout << ">> CONTA ATIVA: POUPANÇA <<" << endl;
             p1.exibir();
         }
@@ -41,9 +51,13 @@ void rodarAppPrincipal(GerenciadorBD& gerenciador, const std::string& usuarioLog
         cout << "(1) Exibir Saldo da Conta Ativa" << endl;
         cout << "(2) Depositar na Conta Ativa" << endl;
         cout << "(3) Sacar da Conta Ativa" << endl;
-        cout << "(4) Trocar para Conta Poupança" << endl;
-        cout << "(5) Trocar para Conta Corrente" << endl;
-        cout << "(6) Sair e Salvar" << endl;
+        if (conta_ativa==1) {
+            cout << "(4) Trocar para Conta Poupança" << endl;
+        }
+        else {
+            cout << "(4) Trocar para Conta Corrente" << endl;
+        }
+        cout << "(5) Sair e Salvar" << endl;
         cout << "Escolha uma opção: ";
         cin >> num_op;
 
@@ -52,6 +66,7 @@ void rodarAppPrincipal(GerenciadorBD& gerenciador, const std::string& usuarioLog
             cin.clear();
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
             cout << "Opção inválida." << endl;
+            pressEnter();
             continue;
         }
 
@@ -65,24 +80,31 @@ void rodarAppPrincipal(GerenciadorBD& gerenciador, const std::string& usuarioLog
 
         if (num_op == 1) {
             contaAtual->exibir();
+            pressEnter();
         }
         else if (num_op == 2) {
             cout << "Digite o valor que deseja depositar: ";
             cin >> val_op;
             contaAtual->depositar(val_op);
+            pressEnter();
+
         }
         else if (num_op == 3) {
             cout << "Digite o valor que deseja Sacar: ";
             cin >> val_op;
             contaAtual->sacar(val_op);
+            pressEnter();
         }
         else if (num_op == 4) {
-            conta_ativa = 2; // Troca para Poupança
+            if (conta_ativa == 1) {
+                conta_ativa = 2; // Troca para Poupança
+            }
+            else {
+                conta_ativa = 1;
+            }
+
         }
         else if (num_op == 5) {
-            conta_ativa = 1; // Troca para Corrente
-        }
-        else if (num_op == 6) {
             break; // Sai do loop while
         }
     }
@@ -121,7 +143,7 @@ int main() {
         }
 
         if (escolha == 1) { // Login
-            cout << "Usuário: "; cin >> usuario;
+            cout << "Login: "; cin >> usuario;
             cout << "Senha: "; cin >> senha;
             
             if (gerenciador.verificarLogin(usuario, senha)) {
@@ -133,14 +155,14 @@ int main() {
             string nomeCompleto;
             double saldoCC, saldoCP;
             
-            cout << "Novo Usuário: "; cin >> usuario;
-            cout << "Nova Senha: "; cin >> senha;
-            
-            // Limpa o 'Enter' pendente antes de ler o nome completo
-            cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
-            
+            cout << "Login: "; cin >> usuario;
             cout << "Nome Completo (para o titular): ";
             getline(cin, nomeCompleto); // Lê a linha inteira (ex: "Tiago Mattos")
+            
+            // Limpa o 'Enter' pendente antes de ler o nome completo
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+            cout << "Crie uma senha numérica de 6 dígitos: "; cin >> senha;
             
             cout << "Depósito Inicial na Conta Corrente: R$"; cin >> saldoCC;
             cout << "Depósito Inicial na Conta Poupança: R$"; cin >> saldoCP;

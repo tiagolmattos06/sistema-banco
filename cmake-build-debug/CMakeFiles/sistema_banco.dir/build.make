@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2025.2.4\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\rosta\CLionProjects\sistema-banco
+CMAKE_SOURCE_DIR = C:\Users\vinni\CLionProjects\sistema-banco
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\rosta\CLionProjects\sistema-banco\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\vinni\CLionProjects\sistema-banco\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/sistema_banco.dir/depend.make
@@ -72,88 +72,88 @@ CMakeFiles/sistema_banco.dir/codegen:
 .PHONY : CMakeFiles/sistema_banco.dir/codegen
 
 CMakeFiles/sistema_banco.dir/main.cpp.obj: CMakeFiles/sistema_banco.dir/flags.make
-CMakeFiles/sistema_banco.dir/main.cpp.obj: C:/Users/rosta/CLionProjects/sistema-banco/main.cpp
+CMakeFiles/sistema_banco.dir/main.cpp.obj: C:/Users/vinni/CLionProjects/sistema-banco/main.cpp
 CMakeFiles/sistema_banco.dir/main.cpp.obj: CMakeFiles/sistema_banco.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\rosta\CLionProjects\sistema-banco\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sistema_banco.dir/main.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sistema_banco.dir/main.cpp.obj -MF CMakeFiles\sistema_banco.dir\main.cpp.obj.d -o CMakeFiles\sistema_banco.dir\main.cpp.obj -c C:\Users\rosta\CLionProjects\sistema-banco\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\vinni\CLionProjects\sistema-banco\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sistema_banco.dir/main.cpp.obj"
+	"C:\PROGRA~1\JetBrains\CLion 2025.2.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sistema_banco.dir/main.cpp.obj -MF CMakeFiles\sistema_banco.dir\main.cpp.obj.d -o CMakeFiles\sistema_banco.dir\main.cpp.obj -c C:\Users\vinni\CLionProjects\sistema-banco\main.cpp
 
 CMakeFiles/sistema_banco.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sistema_banco.dir/main.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\rosta\CLionProjects\sistema-banco\main.cpp > CMakeFiles\sistema_banco.dir\main.cpp.i
+	"C:\PROGRA~1\JetBrains\CLion 2025.2.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\vinni\CLionProjects\sistema-banco\main.cpp > CMakeFiles\sistema_banco.dir\main.cpp.i
 
 CMakeFiles/sistema_banco.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sistema_banco.dir/main.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rosta\CLionProjects\sistema-banco\main.cpp -o CMakeFiles\sistema_banco.dir\main.cpp.s
+	"C:\PROGRA~1\JetBrains\CLion 2025.2.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\vinni\CLionProjects\sistema-banco\main.cpp -o CMakeFiles\sistema_banco.dir\main.cpp.s
 
 CMakeFiles/sistema_banco.dir/Conta.cpp.obj: CMakeFiles/sistema_banco.dir/flags.make
-CMakeFiles/sistema_banco.dir/Conta.cpp.obj: C:/Users/rosta/CLionProjects/sistema-banco/Conta.cpp
+CMakeFiles/sistema_banco.dir/Conta.cpp.obj: C:/Users/vinni/CLionProjects/sistema-banco/Conta.cpp
 CMakeFiles/sistema_banco.dir/Conta.cpp.obj: CMakeFiles/sistema_banco.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\rosta\CLionProjects\sistema-banco\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sistema_banco.dir/Conta.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sistema_banco.dir/Conta.cpp.obj -MF CMakeFiles\sistema_banco.dir\Conta.cpp.obj.d -o CMakeFiles\sistema_banco.dir\Conta.cpp.obj -c C:\Users\rosta\CLionProjects\sistema-banco\Conta.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\vinni\CLionProjects\sistema-banco\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sistema_banco.dir/Conta.cpp.obj"
+	"C:\PROGRA~1\JetBrains\CLion 2025.2.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sistema_banco.dir/Conta.cpp.obj -MF CMakeFiles\sistema_banco.dir\Conta.cpp.obj.d -o CMakeFiles\sistema_banco.dir\Conta.cpp.obj -c C:\Users\vinni\CLionProjects\sistema-banco\Conta.cpp
 
 CMakeFiles/sistema_banco.dir/Conta.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sistema_banco.dir/Conta.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\rosta\CLionProjects\sistema-banco\Conta.cpp > CMakeFiles\sistema_banco.dir\Conta.cpp.i
+	"C:\PROGRA~1\JetBrains\CLion 2025.2.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\vinni\CLionProjects\sistema-banco\Conta.cpp > CMakeFiles\sistema_banco.dir\Conta.cpp.i
 
 CMakeFiles/sistema_banco.dir/Conta.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sistema_banco.dir/Conta.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rosta\CLionProjects\sistema-banco\Conta.cpp -o CMakeFiles\sistema_banco.dir\Conta.cpp.s
+	"C:\PROGRA~1\JetBrains\CLion 2025.2.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\vinni\CLionProjects\sistema-banco\Conta.cpp -o CMakeFiles\sistema_banco.dir\Conta.cpp.s
 
 CMakeFiles/sistema_banco.dir/ContaCorrente.cpp.obj: CMakeFiles/sistema_banco.dir/flags.make
-CMakeFiles/sistema_banco.dir/ContaCorrente.cpp.obj: C:/Users/rosta/CLionProjects/sistema-banco/ContaCorrente.cpp
+CMakeFiles/sistema_banco.dir/ContaCorrente.cpp.obj: C:/Users/vinni/CLionProjects/sistema-banco/ContaCorrente.cpp
 CMakeFiles/sistema_banco.dir/ContaCorrente.cpp.obj: CMakeFiles/sistema_banco.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\rosta\CLionProjects\sistema-banco\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sistema_banco.dir/ContaCorrente.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sistema_banco.dir/ContaCorrente.cpp.obj -MF CMakeFiles\sistema_banco.dir\ContaCorrente.cpp.obj.d -o CMakeFiles\sistema_banco.dir\ContaCorrente.cpp.obj -c C:\Users\rosta\CLionProjects\sistema-banco\ContaCorrente.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\vinni\CLionProjects\sistema-banco\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sistema_banco.dir/ContaCorrente.cpp.obj"
+	"C:\PROGRA~1\JetBrains\CLion 2025.2.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sistema_banco.dir/ContaCorrente.cpp.obj -MF CMakeFiles\sistema_banco.dir\ContaCorrente.cpp.obj.d -o CMakeFiles\sistema_banco.dir\ContaCorrente.cpp.obj -c C:\Users\vinni\CLionProjects\sistema-banco\ContaCorrente.cpp
 
 CMakeFiles/sistema_banco.dir/ContaCorrente.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sistema_banco.dir/ContaCorrente.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\rosta\CLionProjects\sistema-banco\ContaCorrente.cpp > CMakeFiles\sistema_banco.dir\ContaCorrente.cpp.i
+	"C:\PROGRA~1\JetBrains\CLion 2025.2.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\vinni\CLionProjects\sistema-banco\ContaCorrente.cpp > CMakeFiles\sistema_banco.dir\ContaCorrente.cpp.i
 
 CMakeFiles/sistema_banco.dir/ContaCorrente.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sistema_banco.dir/ContaCorrente.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rosta\CLionProjects\sistema-banco\ContaCorrente.cpp -o CMakeFiles\sistema_banco.dir\ContaCorrente.cpp.s
+	"C:\PROGRA~1\JetBrains\CLion 2025.2.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\vinni\CLionProjects\sistema-banco\ContaCorrente.cpp -o CMakeFiles\sistema_banco.dir\ContaCorrente.cpp.s
 
 CMakeFiles/sistema_banco.dir/ContaPoupanca.cpp.obj: CMakeFiles/sistema_banco.dir/flags.make
-CMakeFiles/sistema_banco.dir/ContaPoupanca.cpp.obj: C:/Users/rosta/CLionProjects/sistema-banco/ContaPoupanca.cpp
+CMakeFiles/sistema_banco.dir/ContaPoupanca.cpp.obj: C:/Users/vinni/CLionProjects/sistema-banco/ContaPoupanca.cpp
 CMakeFiles/sistema_banco.dir/ContaPoupanca.cpp.obj: CMakeFiles/sistema_banco.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\rosta\CLionProjects\sistema-banco\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sistema_banco.dir/ContaPoupanca.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sistema_banco.dir/ContaPoupanca.cpp.obj -MF CMakeFiles\sistema_banco.dir\ContaPoupanca.cpp.obj.d -o CMakeFiles\sistema_banco.dir\ContaPoupanca.cpp.obj -c C:\Users\rosta\CLionProjects\sistema-banco\ContaPoupanca.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\vinni\CLionProjects\sistema-banco\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sistema_banco.dir/ContaPoupanca.cpp.obj"
+	"C:\PROGRA~1\JetBrains\CLion 2025.2.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sistema_banco.dir/ContaPoupanca.cpp.obj -MF CMakeFiles\sistema_banco.dir\ContaPoupanca.cpp.obj.d -o CMakeFiles\sistema_banco.dir\ContaPoupanca.cpp.obj -c C:\Users\vinni\CLionProjects\sistema-banco\ContaPoupanca.cpp
 
 CMakeFiles/sistema_banco.dir/ContaPoupanca.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sistema_banco.dir/ContaPoupanca.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\rosta\CLionProjects\sistema-banco\ContaPoupanca.cpp > CMakeFiles\sistema_banco.dir\ContaPoupanca.cpp.i
+	"C:\PROGRA~1\JetBrains\CLion 2025.2.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\vinni\CLionProjects\sistema-banco\ContaPoupanca.cpp > CMakeFiles\sistema_banco.dir\ContaPoupanca.cpp.i
 
 CMakeFiles/sistema_banco.dir/ContaPoupanca.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sistema_banco.dir/ContaPoupanca.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rosta\CLionProjects\sistema-banco\ContaPoupanca.cpp -o CMakeFiles\sistema_banco.dir\ContaPoupanca.cpp.s
+	"C:\PROGRA~1\JetBrains\CLion 2025.2.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\vinni\CLionProjects\sistema-banco\ContaPoupanca.cpp -o CMakeFiles\sistema_banco.dir\ContaPoupanca.cpp.s
 
 CMakeFiles/sistema_banco.dir/GerenciadorBD.cpp.obj: CMakeFiles/sistema_banco.dir/flags.make
-CMakeFiles/sistema_banco.dir/GerenciadorBD.cpp.obj: C:/Users/rosta/CLionProjects/sistema-banco/GerenciadorBD.cpp
+CMakeFiles/sistema_banco.dir/GerenciadorBD.cpp.obj: C:/Users/vinni/CLionProjects/sistema-banco/GerenciadorBD.cpp
 CMakeFiles/sistema_banco.dir/GerenciadorBD.cpp.obj: CMakeFiles/sistema_banco.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\rosta\CLionProjects\sistema-banco\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sistema_banco.dir/GerenciadorBD.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sistema_banco.dir/GerenciadorBD.cpp.obj -MF CMakeFiles\sistema_banco.dir\GerenciadorBD.cpp.obj.d -o CMakeFiles\sistema_banco.dir\GerenciadorBD.cpp.obj -c C:\Users\rosta\CLionProjects\sistema-banco\GerenciadorBD.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\vinni\CLionProjects\sistema-banco\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sistema_banco.dir/GerenciadorBD.cpp.obj"
+	"C:\PROGRA~1\JetBrains\CLion 2025.2.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sistema_banco.dir/GerenciadorBD.cpp.obj -MF CMakeFiles\sistema_banco.dir\GerenciadorBD.cpp.obj.d -o CMakeFiles\sistema_banco.dir\GerenciadorBD.cpp.obj -c C:\Users\vinni\CLionProjects\sistema-banco\GerenciadorBD.cpp
 
 CMakeFiles/sistema_banco.dir/GerenciadorBD.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sistema_banco.dir/GerenciadorBD.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\rosta\CLionProjects\sistema-banco\GerenciadorBD.cpp > CMakeFiles\sistema_banco.dir\GerenciadorBD.cpp.i
+	"C:\PROGRA~1\JetBrains\CLion 2025.2.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\vinni\CLionProjects\sistema-banco\GerenciadorBD.cpp > CMakeFiles\sistema_banco.dir\GerenciadorBD.cpp.i
 
 CMakeFiles/sistema_banco.dir/GerenciadorBD.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sistema_banco.dir/GerenciadorBD.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rosta\CLionProjects\sistema-banco\GerenciadorBD.cpp -o CMakeFiles\sistema_banco.dir\GerenciadorBD.cpp.s
+	"C:\PROGRA~1\JetBrains\CLion 2025.2.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\vinni\CLionProjects\sistema-banco\GerenciadorBD.cpp -o CMakeFiles\sistema_banco.dir\GerenciadorBD.cpp.s
 
 CMakeFiles/sistema_banco.dir/sqlite3.c.obj: CMakeFiles/sistema_banco.dir/flags.make
-CMakeFiles/sistema_banco.dir/sqlite3.c.obj: C:/Users/rosta/CLionProjects/sistema-banco/sqlite3.c
+CMakeFiles/sistema_banco.dir/sqlite3.c.obj: C:/Users/vinni/CLionProjects/sistema-banco/sqlite3.c
 CMakeFiles/sistema_banco.dir/sqlite3.c.obj: CMakeFiles/sistema_banco.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\rosta\CLionProjects\sistema-banco\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/sistema_banco.dir/sqlite3.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sistema_banco.dir/sqlite3.c.obj -MF CMakeFiles\sistema_banco.dir\sqlite3.c.obj.d -o CMakeFiles\sistema_banco.dir\sqlite3.c.obj -c C:\Users\rosta\CLionProjects\sistema-banco\sqlite3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\vinni\CLionProjects\sistema-banco\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/sistema_banco.dir/sqlite3.c.obj"
+	"C:\PROGRA~1\JetBrains\CLion 2025.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sistema_banco.dir/sqlite3.c.obj -MF CMakeFiles\sistema_banco.dir\sqlite3.c.obj.d -o CMakeFiles\sistema_banco.dir\sqlite3.c.obj -c C:\Users\vinni\CLionProjects\sistema-banco\sqlite3.c
 
 CMakeFiles/sistema_banco.dir/sqlite3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sistema_banco.dir/sqlite3.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\rosta\CLionProjects\sistema-banco\sqlite3.c > CMakeFiles\sistema_banco.dir\sqlite3.c.i
+	"C:\PROGRA~1\JetBrains\CLion 2025.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\vinni\CLionProjects\sistema-banco\sqlite3.c > CMakeFiles\sistema_banco.dir\sqlite3.c.i
 
 CMakeFiles/sistema_banco.dir/sqlite3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sistema_banco.dir/sqlite3.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\rosta\CLionProjects\sistema-banco\sqlite3.c -o CMakeFiles\sistema_banco.dir\sqlite3.c.s
+	"C:\PROGRA~1\JetBrains\CLion 2025.2.4\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\vinni\CLionProjects\sistema-banco\sqlite3.c -o CMakeFiles\sistema_banco.dir\sqlite3.c.s
 
 # Object files for target sistema_banco
 sistema_banco_OBJECTS = \
@@ -177,7 +177,7 @@ sistema_banco.exe: CMakeFiles/sistema_banco.dir/build.make
 sistema_banco.exe: CMakeFiles/sistema_banco.dir/linkLibs.rsp
 sistema_banco.exe: CMakeFiles/sistema_banco.dir/objects1.rsp
 sistema_banco.exe: CMakeFiles/sistema_banco.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\rosta\CLionProjects\sistema-banco\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable sistema_banco.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\vinni\CLionProjects\sistema-banco\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable sistema_banco.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\sistema_banco.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -189,6 +189,6 @@ CMakeFiles/sistema_banco.dir/clean:
 .PHONY : CMakeFiles/sistema_banco.dir/clean
 
 CMakeFiles/sistema_banco.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\rosta\CLionProjects\sistema-banco C:\Users\rosta\CLionProjects\sistema-banco C:\Users\rosta\CLionProjects\sistema-banco\cmake-build-debug C:\Users\rosta\CLionProjects\sistema-banco\cmake-build-debug C:\Users\rosta\CLionProjects\sistema-banco\cmake-build-debug\CMakeFiles\sistema_banco.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\vinni\CLionProjects\sistema-banco C:\Users\vinni\CLionProjects\sistema-banco C:\Users\vinni\CLionProjects\sistema-banco\cmake-build-debug C:\Users\vinni\CLionProjects\sistema-banco\cmake-build-debug C:\Users\vinni\CLionProjects\sistema-banco\cmake-build-debug\CMakeFiles\sistema_banco.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/sistema_banco.dir/depend
 

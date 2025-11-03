@@ -1,3 +1,3 @@
 "C:\Program Files\JetBrains\CLion 2025.2.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\sistema_banco.dir/objects.a
-C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\ar.exe qc CMakeFiles\sistema_banco.dir/objects.a @CMakeFiles\sistema_banco.dir\objects1.rsp
-C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\sistema_banco.dir/objects.a -Wl,--no-whole-archive -o sistema_banco.exe -Wl,--out-implib,libsistema_banco.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\sistema_banco.dir\linkLibs.rsp
+"C:\PROGRA~1\JetBrains\CLion 2025.2.4\bin\mingw\bin\ar.exe" qc CMakeFiles\sistema_banco.dir/objects.a @CMakeFiles\sistema_banco.dir\objects1.rsp
+"C:\PROGRA~1\JetBrains\CLion 2025.2.4\bin\mingw\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\sistema_banco.dir/objects.a -Wl,--no-whole-archive -o sistema_banco.exe -Wl,--out-implib,libsistema_banco.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\sistema_banco.dir\linkLibs.rsp

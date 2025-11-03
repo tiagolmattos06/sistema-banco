@@ -1,5 +1,5 @@
 CMakeFiles/sistema_banco.dir/sqlite3.c.obj: \
- C:\Users\rosta\CLionProjects\sistema-banco\sqlite3.c \
+ C:\Users\vinni\CLionProjects\sistema-banco\sqlite3.c \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdarg.h \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/x86_64-w64-mingw32/include/stdarg.h \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/x86_64-w64-mingw32/include/_mingw_stdarg.h \

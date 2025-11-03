@@ -1,5 +1,5 @@
 CMakeFiles/sistema_banco.dir/main.cpp.obj: \
- C:\Users\rosta\CLionProjects\sistema-banco\main.cpp \
+ C:\Users\vinni\CLionProjects\sistema-banco\main.cpp \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -151,11 +151,11 @@ CMakeFiles/sistema_banco.dir/main.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits \
- C:\Users\rosta\CLionProjects\sistema-banco\ContaCorrente.h \
- C:\Users\rosta\CLionProjects\sistema-banco\Conta.h \
- C:\Users\rosta\CLionProjects\sistema-banco\ContaPoupanca.h \
- C:\Users\rosta\CLionProjects\sistema-banco\GerenciadorBD.h \
- C:\Users\rosta\CLionProjects\sistema-banco\sqlite3.h \
+ C:\Users\vinni\CLionProjects\sistema-banco\ContaCorrente.h \
+ C:\Users\vinni\CLionProjects\sistema-banco\Conta.h \
+ C:\Users\vinni\CLionProjects\sistema-banco\ContaPoupanca.h \
+ C:\Users\vinni\CLionProjects\sistema-banco\GerenciadorBD.h \
+ C:\Users\vinni\CLionProjects\sistema-banco\sqlite3.h \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdarg.h \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/x86_64-w64-mingw32/include/stdarg.h \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/x86_64-w64-mingw32/include/_mingw_stdarg.h

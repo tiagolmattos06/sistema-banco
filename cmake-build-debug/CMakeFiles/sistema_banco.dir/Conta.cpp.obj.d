@@ -1,6 +1,6 @@
 CMakeFiles/sistema_banco.dir/Conta.cpp.obj: \
- C:\Users\rosta\CLionProjects\sistema-banco\Conta.cpp \
- C:\Users\rosta\CLionProjects\sistema-banco\Conta.h \
+ C:\Users\vinni\CLionProjects\sistema-banco\Conta.cpp \
+ C:\Users\vinni\CLionProjects\sistema-banco\Conta.h \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
