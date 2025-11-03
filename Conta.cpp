@@ -26,7 +26,7 @@ double Conta::getSaldo() const {
     return saldo;
 }
 
-// depósito, todo tipo de conta vai ter
+// Depósito de ambas as contas
 void Conta::depositar(double valor) {
     if (valor > 0) {
         saldo += valor;
@@ -36,7 +36,7 @@ void Conta::depositar(double valor) {
     }
 }
 
-// exibir na tela informações
+// Tela de informações da conta do usuário
 void Conta::exibir() const {
     cout << "-----------------------------\n";
     cout << "Conta nº: " << numero << endl;
@@ -44,3 +44,4 @@ void Conta::exibir() const {
     cout << "Saldo: R$" << saldo << endl;
     cout << "-----------------------------\n";
 }
+
