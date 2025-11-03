@@ -10,7 +10,8 @@ protected:
     int numero;
     string titular;
     double saldo;
-
+    
+    friend class GerenciadorBD;
 public:
 
     Conta(int numero, string titular, double saldoInicial);
