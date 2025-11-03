@@ -1,0 +1,12 @@
+# Arquivos de build do CLion/CMake
+cmake-build-debug/
+cmake-build-release/
+
+# Arquivo do banco de dados
+*.db
+*.sqlite
+*.sqlite3
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
