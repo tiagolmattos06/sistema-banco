@@ -1,18 +1,40 @@
 #ifndef SISTEMA_BANCO_GERENCIADORBD_H
 #define SISTEMA_BANCO_GERENCIADORBD_H
 
-#endif //SISTEMA_BANCO_GERENCIADORBD_H
-
 #include <string>
 #include "Conta.h"
 #include "sqlite3.h"
 
 class GerenciadorBD {
-    private:
-        sqlite3* db; // ponteiro do banco de dados
-        void criarTabela();
+private:
+    sqlite3* db;
 
-    public:
-        GerenciadorBD(const std::string& nomeArquivo); // Construtor
-        ~GerenciadorBD(); // Destrutor
+
+    void criarTabelaContas();
+    void criarTabelaUsuarios();
+
+public:
+    GerenciadorBD(const std::string& nomeArquivo);
+    ~GerenciadorBD();
+
+   
+    bool salvarConta(Conta& conta);
+    bool carregarContasDoUsuario(
+        const std::string& username, 
+        ContaCorrente& cc_para_preencher, 
+        ContaPoupanca& cp_para_preencher
+    );
+
+    
+    bool registrarUsuario(
+        const std::string& usuario, 
+        const std::string& senha, 
+        const std::string& nomeCompleto,
+        double saldoInicialCC,
+        double saldoInicialCP
+    );
+
+    bool verificarLogin(const std::string& usuario, const std::string& senha);
 };
+
+#endif //SISTEMA_BANCO_GERENCIADORBD_H
