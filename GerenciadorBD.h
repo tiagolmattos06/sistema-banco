@@ -40,6 +40,8 @@ public:
     );
 
     bool verificarLogin(const std::string& usuario, const std::string& senha);
+
+    bool excluirUsuario(const std::string& username);
 };
 
 #endif //SISTEMA_BANCO_GERENCIADORBD_H
