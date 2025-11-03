@@ -168,6 +168,57 @@ bool GerenciadorBD::verificarLogin(const std::string& usuario, const std::string
     }
 }
 
+// --- Opção de excluir a conta ---
+bool GerenciadorBD::excluirUsuario(const std::string& username) {
+    if (!db) return false;
+
+    sqlite3_stmt *stmtContas, *stmtUsuario;
+    const char* sqlContas = "DELETE FROM Contas WHERE USERNAME_DONO = ?;";
+    const char* sqlUsuario = "DELETE FROM Usuarios WHERE USERNAME = ?;";
+
+
+    if (sqlite3_exec(db, "BEGIN TRANSACTION;", 0, 0, 0) != SQLITE_OK) {
+        std::cerr << "Erro ao iniciar transação: " << sqlite3_errmsg(db) << std::endl;
+        return false;
+    }
+
+
+    if (sqlite3_prepare_v2(db, sqlContas, -1, &stmtContas, 0) != SQLITE_OK) {
+        sqlite3_exec(db, "ROLLBACK;", 0, 0, 0); // Cancela a transação
+        return false;
+    }
+    sqlite3_bind_text(stmtContas, 1, username.c_str(), -1, SQLITE_STATIC);
+    if (sqlite3_step(stmtContas) != SQLITE_DONE) {
+        sqlite3_finalize(stmtContas);
+        sqlite3_exec(db, "ROLLBACK;", 0, 0, 0);
+        return false;
+    }
+    sqlite3_finalize(stmtContas);
+
+
+    if (sqlite3_prepare_v2(db, sqlUsuario, -1, &stmtUsuario, 0) != SQLITE_OK) {
+        sqlite3_exec(db, "ROLLBACK;", 0, 0, 0);
+        return false;
+    }
+    sqlite3_bind_text(stmtUsuario, 1, username.c_str(), -1, SQLITE_STATIC);
+    if (sqlite3_step(stmtUsuario) != SQLITE_DONE) {
+        sqlite3_finalize(stmtUsuario);
+        sqlite3_exec(db, "ROLLBACK;", 0, 0, 0);
+        return false;
+    }
+    sqlite3_finalize(stmtUsuario);
+
+
+    if (sqlite3_exec(db, "COMMIT;", 0, 0, 0) != SQLITE_OK) {
+        std::cerr << "Erro ao confirmar transação: " << sqlite3_errmsg(db) << std::endl;
+        return false;
+    }
+
+    return true;
+}
+
+
+
 // --- Métodos de Conta ---
 
 bool GerenciadorBD::salvarConta(Conta& conta) {
