@@ -195,7 +195,7 @@ int main() {
                 string nomeCompleto;
                 double saldoCC, saldoCP;
 
-                cout << "Novo Login: "; cin >> usuario;
+                cout << "Novo Login (Não utilize espaços): "; cin >> usuario;
 
                 cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
