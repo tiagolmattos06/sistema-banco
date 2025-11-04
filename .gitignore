@@ -10,3 +10,6 @@ cmake-build-release/
 # Arquivos do sistema operacional
 .DS_Store
 Thumbs.db
+
+# Configurações de IDEs
+.idea/
