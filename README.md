@@ -104,9 +104,10 @@ g++ main.cpp Conta.cpp ContaCorrente.cpp ContaPoupanca.cpp GerenciadorBD.cpp -ls
 
 ## Equipe de Desenvolvimento
 
-| Nome                  | Função                         | GitHub                                               |
-| --------------------- | ------------------------------ | ---------------------------------------------------- |
-| **Vinicius Oliveira** | UX, Interface e Banco de Dados | [@vinilauter](https://github.com/vinilauter)         |
-| **Caíque Machado**    | Persistência de Dados          | [@Caique-Machado](https://github.com/Caique-Machado) |
-| **Ricardo Lira**      | Persistência de Dados          | [@rcl4-beep](https://github.com/rcl4-beep)           |
-| **Tiago Mattos**      | Lógica de Negócio e POO        | [@tiagolmattos06](https://github.com/tiagolmattos06) |
+| Nome                  | GitHub                                               |
+| --------------------- | ------------------------------ | 
+| **Vinicius Oliveira** | [@vinilauter](https://github.com/vinilauter)         |
+| **Caíque Machado**    | [@Caique-Machado](https://github.com/Caique-Machado) |
+| **Ricardo Lira**      | [@rcl4-beep](https://github.com/rcl4-beep)           |
+| **Tiago Mattos**      | [@tiagolmattos06](https://github.com/tiagolmattos06) |
+
