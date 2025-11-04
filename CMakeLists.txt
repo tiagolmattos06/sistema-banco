@@ -18,4 +18,5 @@ target_sources(sistema_banco PRIVATE
 
 # 4. Para Linux/macOS
 # Linka as bibliotecas que o SQLite pode precisar
-target_link_libraries(sistema_banco PRIVATE pthread dl)
+
+target_link_libraries(sistema_banco PRIVATE pthread)
