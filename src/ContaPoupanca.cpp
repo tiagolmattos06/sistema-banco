@@ -5,7 +5,6 @@
 ContaPoupanca::ContaPoupanca(int numero, string titular, double saldoInicial, string username_dono, double taxaRendimento)
     : Conta(numero, titular, saldoInicial, username_dono), // Chama o construtor da classe base
       taxaRendimento(taxaRendimento) {
-    // Construtor da classe filha
 }
 
 // Métodos 

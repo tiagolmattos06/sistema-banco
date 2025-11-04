@@ -128,149 +128,149 @@ sistema_banco/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/build
 .PHONY : sistema_banco/fast
 
-Conta.obj: Conta.cpp.obj
-.PHONY : Conta.obj
+lib/sqlite3.obj: lib/sqlite3.c.obj
+.PHONY : lib/sqlite3.obj
 
 # target to build an object file
-Conta.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/Conta.cpp.obj
-.PHONY : Conta.cpp.obj
+lib/sqlite3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/lib/sqlite3.c.obj
+.PHONY : lib/sqlite3.c.obj
 
-Conta.i: Conta.cpp.i
-.PHONY : Conta.i
+lib/sqlite3.i: lib/sqlite3.c.i
+.PHONY : lib/sqlite3.i
 
 # target to preprocess a source file
-Conta.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/Conta.cpp.i
-.PHONY : Conta.cpp.i
+lib/sqlite3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/lib/sqlite3.c.i
+.PHONY : lib/sqlite3.c.i
 
-Conta.s: Conta.cpp.s
-.PHONY : Conta.s
+lib/sqlite3.s: lib/sqlite3.c.s
+.PHONY : lib/sqlite3.s
 
 # target to generate assembly for a file
-Conta.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/Conta.cpp.s
-.PHONY : Conta.cpp.s
+lib/sqlite3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/lib/sqlite3.c.s
+.PHONY : lib/sqlite3.c.s
 
-ContaCorrente.obj: ContaCorrente.cpp.obj
-.PHONY : ContaCorrente.obj
+src/Conta.obj: src/Conta.cpp.obj
+.PHONY : src/Conta.obj
 
 # target to build an object file
-ContaCorrente.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/ContaCorrente.cpp.obj
-.PHONY : ContaCorrente.cpp.obj
+src/Conta.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/src/Conta.cpp.obj
+.PHONY : src/Conta.cpp.obj
 
-ContaCorrente.i: ContaCorrente.cpp.i
-.PHONY : ContaCorrente.i
+src/Conta.i: src/Conta.cpp.i
+.PHONY : src/Conta.i
 
 # target to preprocess a source file
-ContaCorrente.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/ContaCorrente.cpp.i
-.PHONY : ContaCorrente.cpp.i
+src/Conta.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/src/Conta.cpp.i
+.PHONY : src/Conta.cpp.i
 
-ContaCorrente.s: ContaCorrente.cpp.s
-.PHONY : ContaCorrente.s
+src/Conta.s: src/Conta.cpp.s
+.PHONY : src/Conta.s
 
 # target to generate assembly for a file
-ContaCorrente.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/ContaCorrente.cpp.s
-.PHONY : ContaCorrente.cpp.s
+src/Conta.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/src/Conta.cpp.s
+.PHONY : src/Conta.cpp.s
 
-ContaPoupanca.obj: ContaPoupanca.cpp.obj
-.PHONY : ContaPoupanca.obj
+src/ContaCorrente.obj: src/ContaCorrente.cpp.obj
+.PHONY : src/ContaCorrente.obj
 
 # target to build an object file
-ContaPoupanca.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/ContaPoupanca.cpp.obj
-.PHONY : ContaPoupanca.cpp.obj
+src/ContaCorrente.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/src/ContaCorrente.cpp.obj
+.PHONY : src/ContaCorrente.cpp.obj
 
-ContaPoupanca.i: ContaPoupanca.cpp.i
-.PHONY : ContaPoupanca.i
+src/ContaCorrente.i: src/ContaCorrente.cpp.i
+.PHONY : src/ContaCorrente.i
 
 # target to preprocess a source file
-ContaPoupanca.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/ContaPoupanca.cpp.i
-.PHONY : ContaPoupanca.cpp.i
+src/ContaCorrente.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/src/ContaCorrente.cpp.i
+.PHONY : src/ContaCorrente.cpp.i
 
-ContaPoupanca.s: ContaPoupanca.cpp.s
-.PHONY : ContaPoupanca.s
+src/ContaCorrente.s: src/ContaCorrente.cpp.s
+.PHONY : src/ContaCorrente.s
 
 # target to generate assembly for a file
-ContaPoupanca.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/ContaPoupanca.cpp.s
-.PHONY : ContaPoupanca.cpp.s
+src/ContaCorrente.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/src/ContaCorrente.cpp.s
+.PHONY : src/ContaCorrente.cpp.s
 
-GerenciadorBD.obj: GerenciadorBD.cpp.obj
-.PHONY : GerenciadorBD.obj
+src/ContaPoupanca.obj: src/ContaPoupanca.cpp.obj
+.PHONY : src/ContaPoupanca.obj
 
 # target to build an object file
-GerenciadorBD.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/GerenciadorBD.cpp.obj
-.PHONY : GerenciadorBD.cpp.obj
+src/ContaPoupanca.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/src/ContaPoupanca.cpp.obj
+.PHONY : src/ContaPoupanca.cpp.obj
 
-GerenciadorBD.i: GerenciadorBD.cpp.i
-.PHONY : GerenciadorBD.i
+src/ContaPoupanca.i: src/ContaPoupanca.cpp.i
+.PHONY : src/ContaPoupanca.i
 
 # target to preprocess a source file
-GerenciadorBD.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/GerenciadorBD.cpp.i
-.PHONY : GerenciadorBD.cpp.i
+src/ContaPoupanca.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/src/ContaPoupanca.cpp.i
+.PHONY : src/ContaPoupanca.cpp.i
 
-GerenciadorBD.s: GerenciadorBD.cpp.s
-.PHONY : GerenciadorBD.s
+src/ContaPoupanca.s: src/ContaPoupanca.cpp.s
+.PHONY : src/ContaPoupanca.s
 
 # target to generate assembly for a file
-GerenciadorBD.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/GerenciadorBD.cpp.s
-.PHONY : GerenciadorBD.cpp.s
+src/ContaPoupanca.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/src/ContaPoupanca.cpp.s
+.PHONY : src/ContaPoupanca.cpp.s
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+src/GerenciadorBD.obj: src/GerenciadorBD.cpp.obj
+.PHONY : src/GerenciadorBD.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+src/GerenciadorBD.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/src/GerenciadorBD.cpp.obj
+.PHONY : src/GerenciadorBD.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/GerenciadorBD.i: src/GerenciadorBD.cpp.i
+.PHONY : src/GerenciadorBD.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/GerenciadorBD.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/src/GerenciadorBD.cpp.i
+.PHONY : src/GerenciadorBD.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/GerenciadorBD.s: src/GerenciadorBD.cpp.s
+.PHONY : src/GerenciadorBD.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/GerenciadorBD.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/src/GerenciadorBD.cpp.s
+.PHONY : src/GerenciadorBD.cpp.s
 
-sqlite3.obj: sqlite3.c.obj
-.PHONY : sqlite3.obj
+src/main.obj: src/main.cpp.obj
+.PHONY : src/main.obj
 
 # target to build an object file
-sqlite3.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/sqlite3.c.obj
-.PHONY : sqlite3.c.obj
+src/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/src/main.cpp.obj
+.PHONY : src/main.cpp.obj
 
-sqlite3.i: sqlite3.c.i
-.PHONY : sqlite3.i
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-sqlite3.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/sqlite3.c.i
-.PHONY : sqlite3.c.i
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-sqlite3.s: sqlite3.c.s
-.PHONY : sqlite3.s
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-sqlite3.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/sqlite3.c.s
-.PHONY : sqlite3.c.s
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sistema_banco.dir\build.make CMakeFiles/sistema_banco.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -281,24 +281,24 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... sistema_banco
-	@echo ... Conta.obj
-	@echo ... Conta.i
-	@echo ... Conta.s
-	@echo ... ContaCorrente.obj
-	@echo ... ContaCorrente.i
-	@echo ... ContaCorrente.s
-	@echo ... ContaPoupanca.obj
-	@echo ... ContaPoupanca.i
-	@echo ... ContaPoupanca.s
-	@echo ... GerenciadorBD.obj
-	@echo ... GerenciadorBD.i
-	@echo ... GerenciadorBD.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
-	@echo ... sqlite3.obj
-	@echo ... sqlite3.i
-	@echo ... sqlite3.s
+	@echo ... lib/sqlite3.obj
+	@echo ... lib/sqlite3.i
+	@echo ... lib/sqlite3.s
+	@echo ... src/Conta.obj
+	@echo ... src/Conta.i
+	@echo ... src/Conta.s
+	@echo ... src/ContaCorrente.obj
+	@echo ... src/ContaCorrente.i
+	@echo ... src/ContaCorrente.s
+	@echo ... src/ContaPoupanca.obj
+	@echo ... src/ContaPoupanca.i
+	@echo ... src/ContaPoupanca.s
+	@echo ... src/GerenciadorBD.obj
+	@echo ... src/GerenciadorBD.i
+	@echo ... src/GerenciadorBD.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
 .PHONY : help
 
 

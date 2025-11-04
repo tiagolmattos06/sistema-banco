@@ -14,7 +14,7 @@ private:
 public:
     ContaPoupanca(int numero, string titular, double saldoInicial, string username_dono, double taxaRendimento);
 
-    bool sacar(double valor) override; // implementação do saqu
+    bool sacar(double valor) override; // implementação do saque
 
     void renderJuros(); // rendimento
     void exibir() const override; // informações

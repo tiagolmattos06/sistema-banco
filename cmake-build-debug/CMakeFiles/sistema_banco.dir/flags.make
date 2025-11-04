@@ -5,13 +5,13 @@
 # compile CXX with C:/Program Files/JetBrains/CLion 2025.2.4/bin/mingw/bin/g++.exe
 C_DEFINES = 
 
-C_INCLUDES = 
+C_INCLUDES = @CMakeFiles/sistema_banco.dir/includes_C.rsp
 
 C_FLAGS = -g -fdiagnostics-color=always
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = @CMakeFiles/sistema_banco.dir/includes_CXX.rsp
 
-CXX_FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+CXX_FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
 

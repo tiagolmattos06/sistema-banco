@@ -1,10 +1,9 @@
 #include "../include/Conta.h"
 #include <iostream>
 
-
+// Construtor da classe base
 Conta::Conta(int numero, string titular, double saldoInicial, string username_dono)
     : numero(numero), titular(titular), saldo(saldoInicial), username_dono(username_dono) {
-    // Construtor da classe base
 }
 
 // Destrutor
