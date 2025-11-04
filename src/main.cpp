@@ -111,7 +111,7 @@ void rodarAppPrincipal(GerenciadorBD& gerenciador, const std::string& usuarioLog
         else if (num_op == 5) { // Sair e Salvar
             encerrarSessao = true; // <-- CORREÇÃO: Marca a flag para sair
         }
-        else if (num_op == 7) { // <-- CORREÇÃO: O número deve ser 7 (não 6)
+        else if (num_op == 6) { // <-- CORREÇÃO: O número deve ser 7 (não 6)
             char confirmacao;
             cout << "\n!!!!!!!!!!!!!!!!!!!!!!!!!! ATENÇÃO !!!!!!!!!!!!!!!!!!!!!!!!!!\n";
             cout << "Você tem CERTEZA que deseja excluir seu usuário (" << usuarioLogado << ")?\n";
