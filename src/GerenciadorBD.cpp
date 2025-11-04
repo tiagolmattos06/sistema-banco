@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../GerenciadorBD.h"
+#include "../include/GerenciadorBD.h"
 #include "../include/ContaCorrente.h"
 #include "../include/ContaPoupanca.h"
 
